@@ -1,0 +1,198 @@
+body{
+    background-image:linear-gradient(rgb(112, 204, 210), rgb(46, 43, 41), rgb(108, 131, 108));
+    padding:3px;
+    margin: 5px;
+    box-sizing: border-box;
+   color:#fffefef6;
+    text-align: center;
+
+}
+
+em{
+    background-image:
+    radial-gradient(rgb(0, 247, 255),
+     rgba(88, 17, 130, 0.987), rgb(27, 196, 27), aqua);
+     color: pink; 
+  
+}
+.heading{
+    color: rgb(2, 1, 15);
+ height: 70px;
+ text-align:center ;
+ margin: 5px 0px;
+
+ width: 90%;
+
+}
+h5{
+    box-shadow: 10px 10px 10px ;
+}
+.heading >span{
+padding-top: 4px;
+font-size: 30px;
+}
+.navigation{
+    height: 70px;
+  text-align: right;
+    float: right;
+    margin: 5px 0px;
+    font-size:larger ;
+    position: fixed
+ 
+}
+.navigation :hover{
+background-image: none;
+}
+.navigation :active{
+    background-color: rgb(41, 127, 127);
+    cursor: pointer;
+}
+a :hover{
+   background-color:  rgb(8, 30, 226);
+}
+a{
+    padding: 3px;
+    text-transform: capitalize;
+    text-decoration:none;
+    color:orange;
+ margin: 4px;
+    display:inline-block;
+   ;
+   
+
+}
+.K{
+    color: rgb(228, 16, 87);
+}
+.L{
+    color: darkorange;
+}
+/*-----section of program---*/
+.counter{
+    counter-reset:section ;
+   
+}
+img{
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+    float: right;
+    border-radius:4px 4px;
+    z-index: -1;
+    transition-property: 0.5s;
+    
+}
+img:hover{
+    color :rgb(127, 117, 171);
+}
+h3{
+    color: #f8f0dc;
+}
+
+ h4::before {
+    color: rgb(228, 125, 190); 
+        counter-increment: section;
+        content: "Section " counter(section) ": ";
+      } 
+
+.cv :hover{
+    background-color: purple;
+}
+.cv :active{
+    background-color: chartreuse;
+}
+.button{
+display: inline;
+width: 80px
+}
+
+.button :hover{
+    color: rgb(209, 11, 209);
+}
+button{
+   
+    color-scheme: none;
+    border-color: #292323;
+    border: 20px;
+    color: rgb(39, 213, 85);
+   
+    margin: 5px;
+    height: 20px;
+    width: 70px;
+    color: blue;
+
+}
+.color{
+    color:rgb(245, 245, 6);
+    
+    font-size: larger;
+    font-weight: bold
+}
+.navigation >span{
+    height:40px ;
+    text-align: center;
+    margin:3px 2px ;
+    padding: 60px;
+}
+.one{
+    flex-direction: row-reverse;
+}
+.kl{
+    color:rgb(15, 19, 149);
+    font-weight: bold;
+    font-display:inline;
+    font-family: 'Lucida Sans',Verdana ;
+    font-size: larger;
+}
+.main{
+    font-weight: 100%;
+    height: 400px;
+    background-color: #000;
+    display: flex;
+}
+.main>span{
+   width: 100%;   
+}
+.maincontent{
+    text-align: center;
+    margin-left: 10px; 
+     margin-right: 10px;
+     width: 60%;
+column-count:2 ;
+}
+.min{
+    background-color: rgb(17, 27, 25);
+    width: 20%;
+}
+footer{
+    text-align: center;
+    font-size:large;
+    height: 50px;
+   
+}
+.footer{
+    background-color: cornsilk;
+    color: #000;
+}
+/*-------------------------MEDIA QUERRIES-----------------------------
+---------------*/
+@media screen and (max-width:600px){
+    .heading{
+        display: flex;
+        height:50px;
+        width:100%;
+     
+    }
+   * {
+    height: 100%;
+     width: 100%;}
+} @keyframes mymov {
+    from{
+     background-color: chocolate;
+     left: 0px;
+    }
+    to{
+     background-color: aqua;
+     right: 50px;
+    }
+}
